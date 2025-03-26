@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.Myscore {
+    margin-left: 4%;
+    font-size: 2.5em;
+}
+h1{
+    font-size: 3.5em;
+}
+a{
+
+    color:rgb(255, 255, 255);
+    float: left;
+    margin-left: 15%;
+
+
+}
+body {
+    font-family: 'Righteous', cursive;
+    background: rgb(0, 0, 0);
+    /*
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(131, 46, 46, 1) 51%, rgba(0, 0, 0, 1) 100%);
+    */
+    background-image: url("Leonardo_Kino_XL_A_colorfull_rainbow_surrounds_the_Earth_like_3.jpg");
+    background-size: cover; /* La imagen cubre toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    /*
+    color: rgb(193, 0, 93);
+    */
+    color:white;
+    height: 100vh; /* Altura del body al 100% de la ventana */
+    margin: 0; /* Elimina márgenes predeterminados */
+}
+
+.grid {
+    width: 560px;
+    height: 300px;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 80px;
+   /*
+    background-image: url("Leonardo_Kino_XL_A_colorful_rainbow_surrounds_the_Earth_like_t.jpg");
+    background-image: url("unicorn.jpg");
+       background: linear-gradient(90deg, rgb(246, 246, 246) 0%, rgb(246, 194, 255) 51%, rgb(255, 254, 254) 100%);
+    
+    */
+    background-image: url("unicorn.jpg");
+    background:white;
+    background-repeat: no-repeat;
+    font-family: 'Righteous', cursive;
+}
+
+.contGlobal {
+    margin-left: 25%;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(184, 4, 255);
+
+}
+
+.user {
+
+    /*
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: rgb(66, 227, 13);
+    background-image: url("unicorn.jpg");
+   /*
+    background: linear-gradient(90deg, rgba(227, 13, 13, 1) 0%, rgba(233, 96, 96, 1) 50%, rgba(231, 32, 32, 1) 100%);
+    */
+
+    position: absolute;
+    width: 80px; /* Ajusta el ancho del contenedor según sea necesario */
+    height: 80px; /* Ajusta el alto del contenedor según sea necesario */
+
+    background-image: url("miniu2.png");
+    
+    background-size: auto; /* Muestra la imagen en su tamaño original */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen dentro del contenedor */
+
+
+
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(205, 1, 147);
+}
